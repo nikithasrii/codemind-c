@@ -29,4 +29,3 @@ int main()
         }
         printf("%d%d%d%d",f,s,t,l);
 }
- 
