@@ -1,9 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int r;
-    float a;
-    scanf("%d",&r);
-    a=r*r*3.14;
-    printf("%.2f",a);
+    float r;
+    scanf("%f",&r);
+    printf("%.2f",3.14*r*r);
 }
