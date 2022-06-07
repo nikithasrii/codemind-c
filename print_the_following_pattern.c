@@ -1,19 +1,15 @@
-#include<stdio.h> 
+#include<stdio.h>
 int main()
 {
-    int i, j, N;
-    scanf("%d", &N);
-
-    for(i=1; i<=N; i++)
+    int N,out,in;
+    scanf("%d",&N);
+    for(out=N;out>=1;out--)
     {
-        for(j=1; j<=N-i+1; j++)
+        for(in=N;in>=1;in--)
         {
-            printf("%d", j);
+        printf("%d ",in);
         }
-
         printf("
 ");
     }
-
-    return 0;
 }
