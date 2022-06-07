@@ -1,17 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int i,n;
+    int n,i,arr[100],a,b;
     scanf("%d",&n);
-    int a[n],b[n];
     for(i=0;i<n;i++)
     {
-        scanf("%d%d",&a[i],&b[i]);
-    }
-    for(i=0;i<n;i++)
-    {
+        scanf("%d %d",&a,&b);
         printf("%d
-",a[i]+b[i]);
+",a+b);
     }
-    return 0;
 }
