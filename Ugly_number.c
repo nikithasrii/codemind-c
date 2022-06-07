@@ -24,13 +24,15 @@ int n,x=0;
             } 
             else 
             {  
-                printf("Not Ugly Number"); 
+                printf("Not Ugly Number
+"); 
                 x = 1;  
                 break;  
             }  
         } 
 		        if (x==0)
 		        { 
-                printf("Ugly Number");
+                printf("Ugly Number
+");
                 }
 }
